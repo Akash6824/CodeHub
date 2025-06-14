@@ -23,6 +23,15 @@ public class CodingTasks {
 
 	// Task 3 : write a code for prime number Check
 	public static void checkPrime(int num) {
+		int num1 = 2487;
+		for(int i = 2;i<= 2486;i++) {
+			if(num % i == 0) {
+				System.out.println("not prime"+i);
+			}
+			else {
+				System.out.println("is prime"+i);
+			}
+		}
 
 	}
 
