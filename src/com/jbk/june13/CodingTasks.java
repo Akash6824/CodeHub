@@ -18,7 +18,20 @@ public class CodingTasks {
 
 	// Task 2 : write a code for counting the digits in a number
 	public static void digitCount(int num) {
-
+		if(num==0) {
+			System.out.println(1);
+		}
+		
+		int count = 0;
+		while(num>0)
+		{
+			num=num/10;   
+			count++;
+		}
+	
+		System.out.println(count);
+		
+		//System.out.println(String.valueOf(Math.abs(num)).length());
 	}
 
 	// Task 3 : write a code for prime number Check
